@@ -5462,6 +5462,9 @@ in {
   flickrapi = callPackage ../development/python-modules/flickrapi { };
 
   aioesphomeapi = callPackage ../development/python-modules/aioesphomeapi { };
+
+  textX = callPackage ../development/python-modules/textX { };
+
 });
 
 in fix' (extends overrides packages)
